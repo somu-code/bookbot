@@ -7,7 +7,7 @@ def count_words(text):
     words = text.split()
     return len(words)
 
-print("--- Begin report of books/frankenstein.txt ---")
+print("--- Begin report of books/text.txt ---")
 print(f"{count_words(file_contents)} words found in the document\n")
 
 # Count letters

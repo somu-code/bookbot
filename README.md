@@ -1,3 +1,3 @@
 # bookbot
 
-BookBot is my first git project!
+This application is written in python named bookbot. Bookbot reads a file and gives us the total number of times an alphabet is used. To use this file you just need to run the main.py file with python3 command(make sure that you have python version 3.11.1 installed or above). By default it's reads "text.txt" file inside books folder. In odder to read you own text file just repelace the "text.txt" file with your own text content and you are good to go. Otherwise you can always use the Dockerfile. Just run "docker build -t bookbot ." command this will build the docker image, after that just run "docker run bookbot".
